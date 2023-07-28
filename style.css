@@ -1,0 +1,144 @@
+.Background-container{
+  
+    background-color: #9DC3C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    flex-direction: column;
+    color: #18767A;  
+}
+p{
+    font-family: 'Times New Roman';
+      
+}
+.heading{
+    grid-row-start:  1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    order: -1;
+    color: #18767A;
+    
+}
+.item{
+    display: flex;
+    justify-content: left;
+    align-items:center ;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+        font-family: 'EB Garamond', serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Freehand', cursive;
+        font-family: 'Knewave', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Lugrasimo', cursive;
+        font-family: 'Nanum Myeongjo', serif;
+        font-family: 'Playball', cursive;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Ranga', cursive;
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Seaweed Script', cursive;
+   
+}
+h3{   
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'EB Garamond', serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Nanum Myeongjo', serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Rubik', sans-serif; 
+              
+}
+.pic-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 3%;
+}
+.Personal-picture{
+    height: 100px;
+    width: 100px;
+    border-radius: 80%;
+
+    
+}
+
+.img{
+    height: 120px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.skills-container{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    row-gap: 40px;
+    column-gap: 100px;
+}
+.pic1{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.skill-descrip1{
+    grid-row-start: 2;   
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.pic2{
+    grid-row-start: 3;
+   
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.skill-descrip2{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.pic3{
+    grid-row-start: 4;
+    
+}
+.skill-descrip3{
+    grid-row-start: 4;
+}
+.flex-skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+
+    background-color: #A4D9DB;
+
+}
+.footer-websites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.Contact-container{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+
+
